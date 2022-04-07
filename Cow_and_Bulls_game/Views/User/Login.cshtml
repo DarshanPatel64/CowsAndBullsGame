@@ -1,0 +1,22 @@
+﻿@model UserGameViewModel
+@using(Html.BeginForm("AuthenticateUser","User")){
+    <div style="border:1px solid grey;padding:20px ">
+     <h2>Login</h2>
+    <div class="form-group">
+        @Html.LabelFor(m => m.user.UserId)
+        @Html.TextBoxFor(m => m.user.UserId,new{
+            @class="form-control"
+        })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.user.Password)
+        @Html.TextBoxFor(m => m.user.Password,new{
+            @class="form-control"
+        })
+    </div>
+    <br />
+    <div class="form-group">
+    <button type="submit" class="btn btn-outline-primary">Login</button>
+    </div>
+    </div>
+}

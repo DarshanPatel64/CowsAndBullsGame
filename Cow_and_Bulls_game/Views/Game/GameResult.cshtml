@@ -1,0 +1,13 @@
+﻿@model GameData
+@if (Model.isWon)
+{
+    <h1>@Model.msg</h1>
+    <h3>You Scorred @Model.bulls bulls</h3>
+}
+else
+{
+    <h1>@Model.msg</h1>
+    <h2>Your Score:-</h2>
+    <h3>Bulls = @Model.bulls</h3>
+    <h3>Cows = @Model.cows</h3>
+}
