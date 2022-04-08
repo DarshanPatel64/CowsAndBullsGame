@@ -18,7 +18,10 @@ namespace Cow_and_Bulls_game.Controllers
         {
             return View();
         }
-
+        public IActionResult ErrMsg()
+        {
+            return View();
+        }
 
         public IActionResult AuthenticateUser(UserGameViewModel obj)
         {
@@ -32,8 +35,8 @@ namespace Cow_and_Bulls_game.Controllers
             else
             {
                 var AuthFailed = new UserGameViewModel();
-                AuthFailed.errorMessage = "Please Enter valid username/password";
-                return View(AuthFailed);
+                AuthFailed.errorMsg = "Please Enter valid username/password";
+                return View("ErrMsg", AuthFailed);
             }
             
         }

@@ -1,0 +1,18 @@
+﻿@model UserGameViewModel
+<style>
+.homepage{
+    font-size:2vw;
+    text-decoration:none;
+    color:white;
+}
+.btn{
+    height:10vh;
+    width:10vw;
+}
+</style>
+<div style="display:flex;justify-content:center;flex-direction:column;align-items:center">
+<h2>@Model.errorMsg</h2>
+<a class="homepage" asp-area="" asp-controller="User" asp-action="Login">
+    <button class="btn btn-outline-primary"> Go back to Login</button>
+</a>
+</div>
