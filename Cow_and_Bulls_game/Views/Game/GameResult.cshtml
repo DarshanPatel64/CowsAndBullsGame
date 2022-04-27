@@ -1,8 +1,21 @@
 ﻿@model GameData
+<style>
+.homepage{
+    font-size:2vw;
+    text-decoration:none;
+    color:white;
+}
+.btn{
+    height:10vh;
+    width:10vw;
+}
+</style>
+
 @if (Model.isWon)
 {
     <h1>@Model.msg</h1>
     <h3>You Scorred @Model.bulls bulls</h3>
+    <h3>Turns = @Model.turns</h3>
 }
 else
 {
@@ -10,4 +23,11 @@ else
     <h2>Your Score:-</h2>
     <h3>Bulls = @Model.bulls</h3>
     <h3>Cows = @Model.cows</h3>
+    <h3>Turns = @Model.turns</h3>
+    <a class="homepage" asp-area="" asp-controller="Game" asp-action="GamePage">
+    <button class="btn btn-primary">
+       retry
+    </button>
+    </a>
+    
 }

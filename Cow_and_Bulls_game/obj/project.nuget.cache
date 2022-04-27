@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VSKiRg5+qXKmkBCvtFHNgQTUZJuMj4PksiRXB0ibro5wxBi3O3BwJnBAhc/t0KMOcCDqCc74ra3Uf0LMjwpOiQ==",
+  "dgSpecHash": "T0cNdpJRIDiphwK7f9kAw+EGeNL/5TIFYh330iPRpiaIFHGE1fIWEdo930o7+aYqXROIAiZHcrrqXnvkAfU7PQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\Cow_and_Bulls_game\\Cow_and_Bulls_game.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\CowsAndBullsGame\\Cow_and_Bulls_game\\Cow_and_Bulls_game.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
